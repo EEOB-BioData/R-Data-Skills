@@ -30,7 +30,8 @@ keypoints:
 ## Motivation
 
 Science is a multi-step process: once you've designed an experiment and collected
-data, the real fun begins! This lesson will teach you how to start this process using
+data, the real fun begins (But remember, R.A.Fisher)! 
+This lesson will teach you how to start this process using
 R and RStudio. We will begin with raw data, perform exploratory analyses, and learn
 how to plot results graphically. This example starts with the
 `data/gapminder-FiveYearData.csv` dataset containing population information for many
@@ -41,9 +42,7 @@ for all of these countries in under a minute!
 
 ## Introduction to RStudio
 
-Welcome to the R portion of the Software Carpentry workshop.
-
-Throughout this lesson, we're going to teach you some of the fundamentals of
+Throughout this lesson, you will learn some of the fundamentals of
 the R language as well as some best practices for organizing code for
 scientific projects that will make your life easier.
 
@@ -102,7 +101,7 @@ you typed in `R` in your command-line environment.
 The first thing you will see in the R interactive session is a bunch
 of information, followed by a ">" and a blinking cursor. In many ways
 this is similar to the shell environment you learned about during the
-shell lessons: it operates on the same idea of a "Read, evaluate,
+unix lessons: it operates on the same idea of a "Read, evaluate,
 print loop": you type in commands, R tries to execute them, and then
 returns a result.
 
@@ -637,7 +636,7 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
     }
     else all.names
 }
-<bytecode: 0x25fc980>
+<bytecode: 0x7f96eb802f48>
 <environment: namespace:base>
 ~~~
 {: .output}
